@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+  }
+  
+  
+  /*home layout*/
+  .home {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 350px 1fr;
+    grid-template-rows: 1fr 150px;
+    grid-template-areas: "sidebar primary"
+                         "sidebar featuring";
+  }
+  .home-sidebar {
+    grid-area: sidebar;
+  }
+  .home-primary {
+    grid-area: primary;
+  }
+  .home-featuring {
+    grid-area: featuring;
+    display: grid;
+  }
+  .home-featuring img {
+    align-self: center;
+    justify-self: center;
+  }
+    .home-primary {
+    display: grid;
+    grid-template-areas: "search user"
+                            "list list";
+    grid-template-rows: auto 1fr;
+    grid-template-columns: 300px 1fr;
+    padding: 10px;
+    overflow: auto;
+    }

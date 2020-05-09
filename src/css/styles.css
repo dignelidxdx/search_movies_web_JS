@@ -1,0 +1,35 @@
+/*
+Error: Invalid @import: expected end of line, was ";".
+        on line 1 of /home/digneli/Documentos/movie_page/search_movies_web_JS/src/css/styles.sass
+
+1: @import "components/global.scss";   
+2: @import "components/header.scss";
+3: @import "components/menu.scss"
+4: @import "components/movies.scss"
+5: @import "components/search.scss"
+6: @import "components/animations.scss"
+
+Backtrace:
+/home/digneli/Documentos/movie_page/search_movies_web_JS/src/css/styles.sass:1
+/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:1034:in `parse_import_directive'
+/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:838:in `parse_directive'
+/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:655:in `parse_line'
+/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:540:in `build_tree'
+/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:559:in `block in append_children'
+/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:558:in `each'
+/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:558:in `append_children'
+/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:417:in `_to_tree'
+/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:307:in `render_with_sourcemap'
+/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:391:in `run'
+/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:63:in `process_result'
+/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:52:in `parse'
+/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:19:in `parse!'
+/usr/share/koala/rubygems/gems/sass-3.5.2/bin/sass:13:in `<top (required)>'
+/usr/share/koala/bin/sass:22:in `load'
+/usr/share/koala/bin/sass:22:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid @import: expected end of line, was \";\".\A         on line 1 of /home/digneli/Documentos/movie_page/search_movies_web_JS/src/css/styles.sass\A \A 1: @import \"components/global.scss\";   \A 2: @import \"components/header.scss\";\A 3: @import \"components/menu.scss\"\A 4: @import \"components/movies.scss\"\A 5: @import \"components/search.scss\"\A 6: @import \"components/animations.scss\""; }
