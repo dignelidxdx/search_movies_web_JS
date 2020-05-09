@@ -105,6 +105,7 @@ const $userName = document.getElementById('playlistFriends');
     }
     
     $form.addEventListener('submit', async (event) => {
+      alert('Tu resultado esta abajo ');
       event.preventDefault();
       $home.classList.add('search-active');
       
@@ -169,7 +170,7 @@ const $userName = document.getElementById('playlistFriends');
       } )
     }
 
-    const { results: friends } = await getDataUser(`${USER_API}5`);
+    const { results: friends } = await getDataUser(`${USER_API}10`);
 
     renderUser(friends, $userName);
   

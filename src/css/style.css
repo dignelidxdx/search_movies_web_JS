@@ -109,6 +109,7 @@ body {
     padding: 1em;
     box-sizing: border-box;
     height: 100vh;
+
     overflow: auto;
   }
   
@@ -124,7 +125,6 @@ body {
   }
   
   .sidebarPlaylist {
-    overflow: auto;
   }
   
   /*myPlaylist*/
